@@ -1,0 +1,6 @@
+@use './_corners.scss';
+
+.button {
+    @include corners.rounded;
+    padding: 5px + corners.$radius;
+  }

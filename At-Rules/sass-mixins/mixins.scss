@@ -1,0 +1,6 @@
+@mixin style{
+    .cont{
+        color:blueviolet;
+    }
+}
+@include style;

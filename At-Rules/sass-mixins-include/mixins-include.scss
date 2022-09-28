@@ -1,0 +1,10 @@
+@mixin style {
+    .cont{
+        background-color: burlywood;
+        color:brown;
+    }
+    h3{
+        color:cornflowerblue;
+    }
+}
+@include style;
