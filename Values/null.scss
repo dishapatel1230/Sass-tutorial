@@ -1,0 +1,6 @@
+@use "sass:map";
+@use "sass:string";
+
+@debug string.index("Helvetica Neue", "Roboto"); // null
+@debug map.get(("large": 20px), "small"); // null
+@debug &;

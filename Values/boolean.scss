@@ -1,0 +1,9 @@
+@use "sass:math";
+
+@debug 1px == 2px;
+@debug 1px == 1px;
+@debug true and true; 
+@debug true and false;
+
+@debug true or false; 
+@debug false or false;

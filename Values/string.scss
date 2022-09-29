@@ -1,0 +1,6 @@
+@use "sass:string";
+@debug string.unquote(".widget:hover");
+@debug string.quote(bold); 
+@debug string.slice("Roboto Mono", -4); 
+@debug string.index("Helvetica Neue", "Neue"); 
+@debug string.index("Helvetica Neue", "Helvetica");

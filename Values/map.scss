@@ -1,0 +1,12 @@
+@use "sass:map";
+
+$font-weights: ("regular": 400, "medium": 500, "bold": 700);
+@debug map.set($font-weights, "extra-bold", 900);
+@debug map.set($font-weights, "bold", 900);
+@debug map.get($font-weights, "medium");
+@debug map.get($font-weights, "extra-bold");
+
+$light-weights: ("lightest": 100, "light": 300);
+$heavy-weights: ("medium": 500, "bold": 700);
+
+@debug map.merge($light-weights, $heavy-weights);
