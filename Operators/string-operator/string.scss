@@ -1,0 +1,5 @@
+@use "sass:string";
+
+@debug "Helvetica" + " Neue"; 
+@debug "Elapsed time: " + 10s;
+@debug true + " is a boolean value";

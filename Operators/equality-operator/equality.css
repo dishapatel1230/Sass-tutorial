@@ -1,0 +1,11 @@
+h2 {
+  color: chocolate;
+  text-align: center;
+  padding: 12px;
+  background-color: antiquewhite;
+}
+h2:after {
+  content: "My font is: sans-serif.";
+}
+
+/*# sourceMappingURL=equality.css.map */

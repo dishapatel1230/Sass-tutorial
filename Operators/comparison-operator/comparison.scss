@@ -1,0 +1,10 @@
+$padding: 50px; 
+$main-color:cornflowerblue;
+h2 {  
+    @if($padding <= 20px) {  
+        padding: $padding;  
+    } @else {  
+        padding: $padding / 2;  
+    }  
+    color:$main-color;
+}  
