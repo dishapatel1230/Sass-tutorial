@@ -1,0 +1,10 @@
+@use "sass:string";
+
+@debug string.quote("Helvetica");
+@debug string.index("Helvetica Neue", "Helvetica");
+@debug string.insert("Roboto Bold", " Mono", 7);
+@debug string.length("Helvetica Neue"); 
+@debug string.slice("Helvetica Neue", 11);
+@debug string.to-upper-case("Bold");
+@debug string.to-lower-case(SANS-SERIF); 
+@debug string.unquote("Helvetica"); 

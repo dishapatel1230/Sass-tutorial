@@ -1,0 +1,15 @@
+@import '../html/scss/Custom.scss';
+
+$sizes: 40px, 50px, 80px;
+
+@each $size in $sizes {
+    .icon-#{$size} {
+      font-size: $size;
+      height: $size;
+      width: $size;
+    }
+  }
+  @debug append(10px 12px 16px, 25px);
+  @debug append([col1-line1], col1-line2); 
+
+ 
