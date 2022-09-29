@@ -1,0 +1,7 @@
+.frst_para{
+    color:crimson;
+}
+.sec_para{
+    @extend .frst_para;
+    font-size: medium;
+}
