@@ -1,0 +1,27 @@
+
+@use './Custom.scss' as *;
+@import "../../node_modules/bootstrap/scss/_navbar.scss";
+/*LOGO */
+.logo{
+    height:3.5rem;
+    width:3.5rem;
+ }
+ .text-name{
+   font-size: 1.5rem;
+   text-decoration: none;
+   color: $primary;
+   font-weight:bold;
+ }
+ .nav-item {
+    .nav-link{
+        margin-left:0.875rem;
+        font-size:$font-family-base;
+        color:$primary;
+        &:hover{
+        color:#3B4EF8 !important;
+        }
+    }
+}
+.navbar-nav .active{
+    color:#3B4EF8 !important;
+}
