@@ -1,0 +1,31 @@
+//Setup npm
+npm init
+
+//Install sass compiler
+npm install --save-dev sass
+
+//Command to run 
+sass html/assets/scss:public/css
+
+//pass arg from command line to npm script
+
+Option1: Named param
+"scripts": {
+    "test-cmd":"echo \"Hello $name\""
+  },
+name=vish npm run test-cmd
+Hello vish
+
+Option2: Pass single argument
+"scripts": {
+    "test-cmd":"echo \"Hello\""
+  },
+npm run test-cmd -- vish
+Hello vish
+
+
+npm run sass-build <param>
+npm run sass-build demo/scss:demo/scss
+
+//bootstrap with sass
+npm i bootstrap --save-dev
